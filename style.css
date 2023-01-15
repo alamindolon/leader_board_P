@@ -1,0 +1,49 @@
+body{
+    margin: 0 auto;
+    
+}
+.title{
+    display: flex;
+    background-color: gray;
+    
+   
+    
+}
+.first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+
+}
+.watch_btn{
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+.half_header{
+    width: 50%;
+    height: 500px;
+    
+    
+    
+}
+.half_header img{
+    width: 130%;
+}
+.medialpoint{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    height: auto;
+}
+.sidebar{
+    background-color: red;
+    grid-column: 1 / 3;
+}
+.mainber{
+    background-color: green;
+    grid-column: 3 / -1;
+}
